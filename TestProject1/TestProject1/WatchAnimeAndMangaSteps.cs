@@ -12,7 +12,7 @@ namespace TestProject1
         [Given(@"user is on '(.*)' homepage")]
         public void GivenUserIsOnHomepage(string p0)
         {
-            DriverHolder.driver = StartDriverWithURL("https://animego.org");
+            StartDriverWithURL("https://animego.org");
         }
 
         [When(@"user clicks on '(.*)' button in header")]
