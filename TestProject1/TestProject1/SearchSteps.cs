@@ -12,7 +12,7 @@ namespace TestProject1
         [Given(@"user in on the homepage")]
         public void GivenUserInOnTheHomepage()
         {
-            DriverHolder.driver = StartDriverWithURL("https://animego.org/");
+            StartDriverWithURL("https://animego.org/");
         }
 
         [When(@"user ckick on search icon")]
